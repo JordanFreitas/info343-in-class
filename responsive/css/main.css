@@ -1,0 +1,42 @@
+body{
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+h1{
+    font-weight: 100;
+    font-size: 60px;
+    margin: 0;
+    padding-top: 100px;
+}
+
+header {
+    background-image: linear-gradient(to bottom, #777, #FFF);
+    color: #FFF
+}
+
+/*any elmement with the attribute(or class) of container*/
+.container {
+max-width: 1170px;
+margin: 0 auto; /*remain centered in the page*/
+
+}
+
+svg{
+    width: 100px;
+    fill: #555
+}
+/*applies to larger screens*/
+@media (min-width: 768px){
+    header{
+    background-image: url(..//img/banner.jpg); /* ".." goes up one and then you go back to where you put the image*/
+    background-size: cover;
+    background-position: center;
+
+    }
+    .row {
+        display: flex;
+    }
+    .col{
+        flex-grow: 1;
+    }
+}
