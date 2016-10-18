@@ -22,6 +22,7 @@ margin: 0 auto; /*remain centered in the page*/
 }
 
 svg{
+    
     width: 100px;
     fill: #555
 }
